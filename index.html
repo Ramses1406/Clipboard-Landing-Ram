@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clipboard-Landing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="output.css">
+</head>
+
+<style>
+.font {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.ram {background-image: url(./images/bg-header-mobile.png); background-repeat: no-repeat; background-size:cover;}
+
+.ramdesktop {background-image: url(./images/bg-header-desktop.png); background-repeat: no-repeat; background-size:cover;}
+</style>
+
+
+
+<body class="font">
+
+  <!-- con CONTENEDOR -->
+<div>
+  
+<!-- r HEADER-MOBILE -->
+
+<div class="ram lg::hidden">
+
+<img src="./images/logo.svg" class="pb-20 mx-auto lg:hidden pt-36 " alt="">
+
+
+
+</div>
+
+<!-- r HEADER-DESKTOP -->
+<div class="ramdesktop max-lg:hidden">
+
+  <img src="./images/logo.svg" class="pb-20 mx-auto pt-36" alt="">
+  
+</div>
+  
+  
+
+<!-- r HEADER-TITULOS -->
+
+<div class="px-6">
+
+<div class="lg:pt-10">
+
+<h1 class="text-4xl font-semibold text-center opacity-65 lg:text-4xl">
+  A history of everything you copy
+</h1>
+
+<p class="pt-6 pb-16 font-medium tracking-wider text-center text-gray-400/70 text-md lg:text-xl lg:hidden">
+  Clipboard allows you to track and organize everything you 
+  copy. Instantly access your clipboard on all your devices.
+</p>
+
+<p class="pt-6 pb-16 font-medium tracking-wider text-center max-lg:hidden text-gray-400/70 text-md lg:text-xl">
+  Clipboard allows you to track and organize everything you 
+  copy. Instantly <br> access your clipboard on all your devices.
+</p>
+  
+  
+  
+</div>
+<!-- r DIV-BOTONES -->
+
+<div class="flex flex-col items-center gap-2 lg:gap-8 lg:justify-center lg:flex-row ">
+
+  <!-- BUTTON-IOS -->
+<button class="px-20 py-4 text-white lg:rounded-full lg:py-3 lg:shadow-2xl lg:px-12 rounded-3xl bg-primary-StrongCyan lg:text-base w-fit">
+  Download for iOS
+
+</button>
+
+<!-- BUTTON-MAC -->
+<button class="px-20 py-4 text-white lg:py-3 lg:rounded-full lg:shadow-2xl lg:px-12 rounded-3xl bg-primary-LightBlue w-fit lg:text-base">
+  Download for Mac
+
+</button>
+
+</div>
+<!-- r CONTENIDO-TITULOS -->
+
+<!-- KEEP-TRACK -->
+<div class="pt-10 lg:pb-20 lg:pt-32 ">
+
+<h1 class="text-3xl font-semibold text-center lg:text-2xl opacity-65">  Keep track of your snippets
+</h1>
+
+<p class="pt-8 text-xl font-medium tracking-widest text-center text-gray-400 lg:hidden pb-14">
+  Clipboard instantly stores any item you copy in the cloud, 
+  meaning you can access your snippets immediately on all your 
+  devices. Our Mac and iOS apps will help you organize everything.
+</p>
+
+<p class="pt-8 font-medium tracking-widest text-center lg:text-base text-gray-400/60 max-lg:hidden lg:tracking-normal pb-14">
+  Clipboard instantly stores any item you copy in the cloud, 
+  meaning you can access <br> your snippets immediately on all your 
+  devices. Our Mac and iOS apps will help you <br>
+  organize everything.
+</p>
+
+
+</div>
+
+
+<div class=" lg:flex lg:justify-center">
+      <div>
+        <img src="./images/image-computer.png" class="lg:hidden" alt="">
+      </div>
+
+      <div>
+        <img src="./images/image-computer.png" alt="" class="lg:max-w-[550px] max-lg:hidden">
+      </div>
+
+      <div class=" lg:pl-32 lg:flex-col lg:px-48">
+        <!-- QUICK-SEARCH -->
+        <div class="pt-16 lg:pt-10 ">
+        
+        <h1 class="text-xl font-semibold text-center lg:text-xl lg:text-left opacity-65">Quick Search
+        </h1> 
+        
+        <p class="pt-8 text-xl font-medium tracking-widest text-center text-gray-400 lg:pt-2 lg:leading-7 lg:text-[16px] lg:text-gray-400/70 lg:tracking-wide pb-14 lg:pb-7 lg:text-left "> Easily search your snippets by content, category, web address, application, and more.</p>
+        </div>
+
+        <!-- ICLOUD-SYNC -->
+        <div>
+        <h1 class="text-xl font-semibold text-center lg:text-xl lg:text-left opacity-65"> iCloud Sync</h1>
+
+        <p class="pt-8 text-xl font-medium tracking-widest text-center text-gray-400 lg:pt-2 lg:tracking-wide lg:text-[16px] lg:text-gray-400/70 pb-14 lg:pb-7 lg:text-left lg:leading-7 ">Instantly saves and syncs snippets across all your devices.</p> 
+        </div>
+
+        <!-- COMPLETE-HISTORY -->
+        <div>
+        <h1 class="text-xl font-semibold text-center lg:text-xl opacity-65 lg:text-left "> Complete History</h1> 
+
+        <p class="pt-8 text-xl font-medium tracking-widest text-center text-gray-400 lg:pt-2 lg:tracking-wide lg:text-[16px] lg:text-gray-400/70 pb-14 lg:text-left lg:leading-7 ">Retrieve any snippets from the first moment you started using the app.</p> 
+        </div>
+      </div>
+</div>
+
+
+
+
+<!-- ACCESS-CLIPBOARD -->
+<div class="pt-24">
+   <h1 class="text-3xl font-semibold text-center lg:text-4xl opacity-65"> Access Clipboard anywhere</h1>
+
+  <p class="pt-8 text-xl font-medium tracking-widest text-center text-gray-400 pb-14 lg:hidden">Whether you’re on the go, or at your computer, you can access all your Clipboard 
+  snippets in a few simple clicks.</p> 
+
+  <p class="pt-8 text-xl font-medium tracking-widest text-center text-gray-400 lg:text-xl pb-14 max-lg:hidden">Whether you’re on the go, or at your computer, you can access all your Clipboard <br>
+    snippets in a few simple clicks.</p>   
+
+  
+  <img src="./images/image-devices.png" alt="" class="lg:mx-auto lg:max-w-[700px]">
+
+
+</div>
+<!-- SUPERCHARGE -->
+<div >
+
+   <h1 class="pt-20 text-3xl font-semibold text-center opacity-65 lg:text-3xl">Supercharge your workflow</h1> 
+
+   <p class="pt-4 text-xl font-medium tracking-widest text-center text-gray-400 pb-14 lg:text-xl lg:pt-10"> We’ve got the tools to boost your productivity.</p> 
+  
+</div>
+
+
+
+<div class="justify-center mx-auto lg:flex lg:gap-4 lg:pt-16 lg:px-10 lg:items-center">
+<!-- CREATE-BLACKLIST -->
+<div class=" lg:mt-8 lg:py-0">
+
+  <img src="./images/icon-blacklist.svg"
+  class="mx-auto "
+  alt="">
+  
+  <h1 class="pt-10 text-2xl font-semibold text-center lg:text-2xl opacity-65">Create blacklists</h1>  
+
+  <p class="pt-4 text-xl font-medium tracking-widest text-center text-gray-400 pb-14 lg:hidden"> Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+
+  <p class="pt-4 text-xl font-medium tracking-widest text-center text-gray-400 lg:text-lg pb-14 max-lg:hidden"> Ensure sensitive information never makes <br> its way to your clipboard  by excluding certain sources.</p>
+   
+  
+</div>
+<!-- PLAIN-TEXT -->
+<div class=" lg:py-5">
+  <img src="./images/icon-text.svg"
+  class="mx-auto "
+  alt="">
+
+   <h1 class="pt-10 text-3xl font-semibold text-center lg:text-2xl opacity-65">Plain text snippets</h1> 
+
+ <p class="pt-4 text-xl font-medium tracking-widest text-center text-gray-400 lg:text-lg pb-14 "> Remove unwanted formatting from copied text for a consistent look.</p>  
+</div>
+<!-- SNEAK-PREVIEW -->
+<div class=" lg:py-5">
+
+
+  <img src="./images/icon-preview.svg"
+  class="mx-auto "
+  alt="">
+
+   <h1 class="pt-10 text-3xl font-semibold text-center lg:text-2xl opacity-65">Sneak preview</h1> 
+
+ <p class="pt-4 text-xl font-medium tracking-widest text-center text-gray-400 pb-14 lg:text-lg"> 
+  Quick preview of all snippets on your Clipboard for easy access.</p>  
+  
+
+</div>
+
+
+</div>
+
+
+
+
+<!-- BRANDS -->
+
+ <div class="grid gap-16 pt-14 lg:gap-0 lg:flex lg:px-20 lg:pt-32"> 
+  <img src="./images/logo-google.png" alt="" class="object-contain mx-auto">
+  <img src="./images/logo-ibm.png" alt="" class="object-contain mx-auto">
+  <img src="./images/logo-microsoft.png" alt="" class="object-contain mx-auto">
+  <img src="./images/logo-hp.png" alt="" class="object-contain mx-auto">
+  <img src="./images/logo-vector-graphics.png" alt="" class="object-contain mx-auto">
+
+
+</div>
+<!-- CLIPBOARD-MAC IOS -->
+<div class="pt-28 lg:pt-14">
+   <h1 class="pt-10 text-3xl font-semibold text-center lg:text-2xl opacity-65"> Clipboard for iOS and Mac OS</h1>
+
+  <p class="pt-4 text-xl font-medium tracking-widest text-center text-gray-400 lg:text-base pb-14 lg:hidden"> Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+  and you’re ready to start adding to your clipboard.</p> 
+</div>
+
+<p class="pt-4 text-xl font-medium tracking-widest text-center text-gray-400 max-lg:hidden lg:text-base pb-14"> Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+  and you’re ready <br> to start adding to your clipboard.</p> 
+</div>
+
+        <!-- r DIV-BOTONES II -->
+
+<div class="flex flex-col items-center gap-2 lg:gap-8 lg:justify-center lg:pb-32 lg:flex-row ">
+
+  <!-- BUTTON-IOS -->
+<button class="px-20 py-4 text-white lg:rounded-full lg:py-3 lg:shadow-2xl lg:px-12 rounded-3xl bg-primary-StrongCyan lg:text-base w-fit">
+  Download for iOS
+
+</button>
+
+<!-- BUTTON-MAC -->
+<button class="px-20 py-4 text-white lg:py-3 lg:rounded-full lg:shadow-2xl lg:px-12 rounded-3xl bg-primary-LightBlue w-fit lg:text-base">
+  Download for Mac
+
+</button>
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+<!-- r FOOTER -->
+
+<div class="grid items-center justify-center gap-6 py-10 lg:flex lg:justify-between bg-neutral-GrayishBlue/10 lg:px-24">
+
+  <!-- IMAGEN -->
+  <div>
+  <img src="./images/logo.svg" class="h-10 mx-auto " alt="">
+  </div>
+
+  <!-- INFORMACIONES -->
+  <div class="grid gap-10 lg:flex lg:gap-28">
+    <div class="grid gap-4">
+        <p class="text-base font-medium tracking-wider text-center lg:text-start text-gray-500/90 ">FAQs</p>
+
+        <p class="text-base font-medium tracking-wider text-center text-gray-500/90 ">Contact Us</p>
+    </div>
+
+
+    <div class="grid gap-4">
+    <p class="text-base font-medium tracking-wider text-center lg:text-left text-gray-500/90 ">Privacy Policy</p>
+
+    <p class="text-base font-medium tracking-wider text-center lg:text-start text-gray-500/90 ">Press Kit</p>
+    </div>
+
+
+    <p class="text-base font-medium tracking-wider text-center text-gray-500/90 ">Install Guide</p> 
+  
+  </div>
+
+
+
+<!-- SOCIAL-NETWORK-DIV -->
+
+      <div class="flex justify-center pb-4 mt-6 gap-7">
+
+        <img src="/images/icon-facebook.svg" class="h-5" alt=""> 
+        <img src="/images/icon-twitter.svg" class="h-5" alt="">  
+        <img src="/images/icon-instagram.svg" class="h-5" alt="">  
+        
+      </div>
+
+</div>
+
+
+
+
+
+
+
+
+  
+</body>
+</html>
